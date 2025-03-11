@@ -157,6 +157,12 @@
 #' \emph{Journal of Clinical Epidemiology}, \bold{118},
 #' 124--131.
 #' 
+#' #' Sousa-Pinto B, Neumann I, Vieira RJ, et al. (2025).
+#' \dQuote{Quantitative assessment of inconsistency in meta-analysis using
+#' decision thresholds with two new indices.}
+#' \emph{Journal of Clinical Epidemiology}, \bold{181},
+#' 111725.
+#' 
 #' @examples
 #' 
 #' # Example with effect sizes measures expressed as ratios and with
@@ -231,9 +237,9 @@ inc <- function(x, dt1, dt2 = NULL, dt3 = NULL, sm, br = NULL,
   #
   if (avail.util & avail.br & sm %in% c("OR", "RR", "HR") &
       !avail.dt1 & !avail.dt2 & !avail.dt3) {
-    dt1 <- scale * 0.0135 / (1 - utility)
-    dt2 <- scale * 0.0321 / (1 - utility)
-    dt3 <- scale * 0.0625 / (1 - utility)
+    dt1 <- scale * (0.073 - (0.061 * (1 - utility)))
+    dt2 <- scale * (0.18 - (0.146 * (1 - utility)))
+    dt3 <- scale * (0.338 - (0.271 * (1 - utility)))
     #
     avail.dt1 <- TRUE
     avail.dt2 <- TRUE

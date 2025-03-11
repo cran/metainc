@@ -219,6 +219,12 @@ Skoetz N, Goldkuhle M, van Dalen EC, et al. (2020).
 time-to-event outcomes in summary of findings tables and Evidence Profiles.}
 \emph{Journal of Clinical Epidemiology}, \bold{118},
 124--131.
+
+#' Sousa-Pinto B, Neumann I, Vieira RJ, et al. (2025).
+\dQuote{Quantitative assessment of inconsistency in meta-analysis using
+decision thresholds with two new indices.}
+\emph{Journal of Clinical Epidemiology}, \bold{181},
+111725.
 }
 \author{
 Bernardo Sousa-Pinto \email{bernardo@med.up.pt},

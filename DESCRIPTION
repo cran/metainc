@@ -1,8 +1,8 @@
 Package: metainc
 Title: Assessment of Inconsistency in Meta-Analysis using Decision
         Thresholds
-Version: 0.2-0
-Date: 2024-02-16
+Version: 0.2-1
+Date: 2025-03-11
 Depends: R (>= 4.0.0)
 Imports: meta (>= 7.0-0), ggplot2, confintr
 Suggests: metafor
@@ -20,7 +20,7 @@ License: GPL (>= 2)
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2024-02-20 21:27:13 UTC; Bernardo
+Packaged: 2025-03-11 21:24:47 UTC; Bernardo
 Author: Bernardo Sousa-Pinto [cre, aut]
     (<https://orcid.org/0000-0002-1277-3401>),
   Rafael Jose Vieira [aut],
@@ -29,4 +29,4 @@ Author: Bernardo Sousa-Pinto [cre, aut]
   Guido Schwarzer [aut] (<https://orcid.org/0000-0001-6214-9087>)
 Maintainer: Bernardo Sousa-Pinto <bernardo@med.up.pt>
 Repository: CRAN
-Date/Publication: 2024-02-21 21:00:09 UTC
+Date/Publication: 2025-03-11 21:50:08 UTC
